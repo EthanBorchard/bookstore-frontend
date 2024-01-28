@@ -44,6 +44,8 @@ export class LoginComponent implements OnInit {
       localStorage.setItem('token', response.token);
       this.router.navigate(['/bookstore/dashboard']);
     }, (error) => {
+      this.ngxService.stop();
+      this.dialogRef.close();
       if (error.error?.message) {
         this.responseMessage = error.error?.message;
       } else {
