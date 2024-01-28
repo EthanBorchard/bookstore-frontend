@@ -23,8 +23,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   text: "Loading...",
   textColor: "#FFFFFF",
   textPosition: "center-center",
-  bgsColor: "#7b1fa2",
-  fgsColor: "#7b1fa2",
+  bgsColor: "#0076CE",
+  fgsColor: "#0076CE",
   fgsType: SPINNER.doubleBounce,
   fgsSize: 100,
   hasProgressBar: false
